@@ -24,6 +24,7 @@ def max_num_in_list(a_list):
 
 
 
+
 #question 4
 #Write a function to return if the given year is a leap year. A leap year is divisible by 4, but not divisible by 100, unless it is also divisible by 400. The return should be boolean Type (true/false).
 
@@ -37,15 +38,22 @@ def max_num_in_list(a_list):
 # question 5            
 #Write a function to check to see if all numbers in list are consecutive numbers. For example, 
 # [2,3,4,5,6,7] are consecutive numbers, but [1,2,4,5] are not consecutive numbers. The return should be boolean Type.
+def is_consecutive(a_list):
+   test=a_list[0]
+   for i in a_list:
+      if i == test:
+         test = test+1
+      else:
+         return False
+   return True
 
-    def is_consecutive(a_list):
-       if len(a_list)>= 1:
-   else:
-   my_list = my(a_list)
+print(is_consecutive([1,2,4,5]))
    
-for i in range(len(a_list)-1):
-        if  my_list[i+1] - my_list[i] +1:
-           r
+#for i in range(len(a_list)-1):
+ #  if  my_list[i+1] - my_list[i] +1:
+
+
+
             
       
   #test    
